@@ -5,4 +5,7 @@ function test(input){
 
     console.log(a + b);
 
+console.log(a);
+
+
 }

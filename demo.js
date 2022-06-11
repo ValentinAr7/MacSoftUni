@@ -7,27 +7,34 @@ let currentInput = input[index];
 let spendDays = 0;
 let days = 0;
 
-while(spendDays !== 5){
+while(currentMoney < needMoney){
     days++
+    
 
     if(currentInput === "spend"){
-
-        index++
-        currentInput = Number(input[index]);
-        currentMoney -= currentInput
         spendDays++
+
+        if(spendDays === 5){
+            console.log("You can't save the money.");
+            console.log(days);
+            break;
+        }
+
+            let moneyToSpend = Number(input[index]);
+            currentMoney -= moneyToSpend
     
         if(currentMoney < 0){
             currentMoney = 0;
         }
     } else if (currentInput === "save"){
         spendDays = 0;
-        index++;
-        currentInput = Number(input[index]);
-        currentMoney+=currentInput
+        
+        let moneyToSva = input[index];
+        currentMoney+=moneyToSva
 
     }
-
+    index++
+    currentInput = input[index]
 }
 
 }

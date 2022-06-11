@@ -9,6 +9,7 @@ let days = 0;
 
 while(currentMoney < needMoney){
     days++
+    index++
     
 
     if(currentInput === "spend"){
@@ -29,7 +30,7 @@ while(currentMoney < needMoney){
     } else if (currentInput === "save"){
         spendDays = 0;
         
-        let moneyToSva = input[index];
+        let moneyToSva = Number(input[index]);
         currentMoney+=moneyToSva
 
     }
@@ -37,4 +38,7 @@ while(currentMoney < needMoney){
     currentInput = input[index]
 }
 
+    if(currentMoney >= needMoney){
+        console.log(`You saved the money for ${days} days.`);
+    }
 }

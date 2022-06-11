@@ -10,7 +10,24 @@ let days = 0;
 while(spendDays !== 5){
     days++
 
+    if(currentInput === "spend"){
+
+        index++
+        currentInput = Number(input[index]);
+        currentMoney -= currentInput
+        spendDays++
     
+        if(currentMoney < 0){
+            currentMoney = 0;
+        }
+    } else if (currentInput === "save"){
+        spendDays = 0;
+        index++;
+        currentInput = Number(input[index]);
+        currentMoney+=currentInput
+
+    }
+
 }
 
 }

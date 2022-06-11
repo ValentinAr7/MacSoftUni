@@ -1,4 +1,4 @@
-function demo(input){
+function demo1(input){
 
 let needMoney = Number(input[0]);
 let currentMoney = Number(input[1]);
@@ -42,3 +42,5 @@ while(currentMoney < needMoney){
         console.log(`You saved the money for ${days} days.`);
     }
 }
+
+    demo1(["2000", "1000", "spend", "1200", "save", "2000"])

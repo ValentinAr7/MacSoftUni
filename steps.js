@@ -1,31 +1,35 @@
 function steps(input){
 
+    let target = 10000
 let index = 0;
-let steps = Number(input[index]);
+let command = input[index];
+let sum = 0;
 
-let stepsCounter = 0;
+while (command !== `Going Home`){
+    let steps = Number(command)
+    sum += steps
 
-while(steps <= 10000){
-    stepsCounter = input[index]
-    index++
-    steps += stepsCounter
-
-    if(steps > 10000){
-        console.log(`Goal reached! Good Job!`);
-        console.log(`${steps - stepsCounter} steps over the goal!`);
-
-    } else if (input[index] === "Going Home"){
-        stepsCounter = input[index]
-        index++
-        steps += stepsCounter
+    if (sum >= target){
+        console.log(`Goal reached! Good job!`);
+        console.log(`${sum - target} steps over the goal!`)
         break;
+    }
+    index++;
+    command = input[index];
+}
+if(command === `Going home`){
+    let stepsToHome = Number(input[index + 1]);
+    sum += stepsToHome;
 
+
+    if (sum >= target){
+        console.log(`Goal reached! Good job!`);
+        console.log(`${sum - target} steps over the goal!`)
+    } else{
+        console.log(`${target - sum} more steps to reach the goal.`);
     }
 
-
 }
-console.log(steps);
-
 }
 
-steps (["1000", "1500", "Going Home", "2000", " 6500"])
+steps (["1000", "1500",  "2000", " 6500"])

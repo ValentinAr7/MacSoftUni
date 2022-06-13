@@ -10,6 +10,8 @@ let a = 0;
 let b = 1;
 let result = a + 5
 
+console.log(result);
+
 while(currentMoney < needMoney){
     days++
     index++

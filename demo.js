@@ -12,6 +12,7 @@ let result = a + 5
 
 console.log(result);
 
+
 while(currentMoney < needMoney){
     days++
     index++
@@ -44,7 +45,7 @@ while(currentMoney < needMoney){
 }
 
     if(currentMoney >= needMoney){
-        console.log(`You saved the money for ${days} days.`);
+        console.log(`You saved the money for ${days} days. Thank you`);
     }
 }
 

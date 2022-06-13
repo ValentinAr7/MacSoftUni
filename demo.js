@@ -22,7 +22,7 @@ while(currentMoney < needMoney){
         spendDays++
 
         if(spendDays === 5){
-            console.log("You can't save the money.");
+            console.log("You can't save enough money.");
             console.log(days);
             break;
         }

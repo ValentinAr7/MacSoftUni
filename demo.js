@@ -6,7 +6,7 @@ let index = 2;
 let currentInput = input[index];
 let spendDays = 0;
 let days = 0;
-let a = 0;
+let a = 8;
 let b = 1;
 let result = a + 5
 

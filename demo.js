@@ -8,7 +8,7 @@ let spendDays = 0;
 let days = 0;
 let a = 8;
 let b = 6;
-let result = a + 5
+let result = a + b
 
 console.log(result);
 

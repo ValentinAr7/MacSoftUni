@@ -7,7 +7,7 @@ let currentInput = input[index];
 let spendDays = 0;
 let days = 0;
 let a = 8;
-let b = 1;
+let b = 6;
 let result = a + 5
 
 console.log(result);

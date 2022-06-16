@@ -8,7 +8,7 @@ let spendDays = 1;
 let days = 0;
 let a = 9;
 let b = 7;
-let result = a / b
+let result = a * b
 
 console.log(result);
 

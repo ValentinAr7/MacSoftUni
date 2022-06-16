@@ -2,7 +2,7 @@ function demo1(input){
 
 let needMoney = Number(input[0]);
 let currentMoney = Number(input[1]);
-let index = 2;
+let index = 3;
 let currentInput = input[index];
 let spendDays = 1;
 let days = 0;

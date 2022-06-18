@@ -5,8 +5,11 @@ function exercise(input){
     let cpinsCounter = 0;
 
     while(inCoins > 0){
+        if(inCoins >= 200){
+            inCoins -=200;
+            cpinsCounter++;
+        }
 
-        
     }
 
 

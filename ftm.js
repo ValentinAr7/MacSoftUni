@@ -1,6 +1,6 @@
 function exercise(input){
 
-    let change = Number(input[o]);
+    let change = Number(input[0]);
     let inCoins = Math.floor(change * 100);
     let cpinsCounter = 0;
 
@@ -30,6 +30,8 @@ function exercise(input){
     inCoins -=1;
     cpinsCounter++;
 }
-
-
+    }
+console.log(cpinsCounter); 
 }
+
+exercise(["1.23"])

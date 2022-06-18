@@ -26,6 +26,9 @@ function exercise(input){
 }else if (inCoins >= 2){
     inCoins -=2;
     cpinsCounter++;
+} else if (inCoins >= 1){
+    inCoins -=1;
+    cpinsCounter++;
 }
 
 

@@ -34,4 +34,4 @@ function exercise(input){
 console.log(cpinsCounter); 
 }
 
-exercise(["1.23"])
+exercise(["2.2"])

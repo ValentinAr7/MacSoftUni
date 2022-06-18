@@ -8,8 +8,9 @@ function exercise(input){
         if(inCoins >= 200){
             inCoins -=200;
             cpinsCounter++;
-        }
-
+        } else if (inCoins >= 100){
+            inCoins -=100;
+            cpinsCounter++;
     }
 
 

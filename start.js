@@ -9,6 +9,23 @@ function start(input){
     let index = 3;
     let command = input[index];
 
+    while(command !== "Done"){
+
+        let numberOfBoxes = Number(command);
+        freeSpace -= numberOfBoxes;
+
+        if(freeSpace < 0){
+            console.log(`No more free space! You need ${Math.abs(freeSpace)} Cubic meters more.f`);
+            break;
+        }
+        index++
+        command = input[index];
+    }
+
+    if(freeSpace >= 0){
+        console.log(`${freeSpace} Cubic meters left.`);
+    }
+
 
 
 }

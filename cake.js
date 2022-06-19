@@ -1,8 +1,8 @@
 function cake(input){
 
-    let lenght = Number(input[0]);
-    let width = Number(input[1]);
-    let sizeCake = lenght * width
+    let lenght = Number(input[0]);      /// lenght of the cake
+    let width = Number(input[1]);       /// width of the cake
+    let cakeSize = lenght * width
     let index = 2;
     let command = input[index];
     let numPieces = 0;
@@ -22,11 +22,9 @@ function cake(input){
 
     if (command === 'STOP'){
         if(numPieces <= sizeCake){
-            
+
         }
     }
-
-
 
 }
 cake (["10", "2", "2", "4", "6", "STOP"])

@@ -4,11 +4,11 @@ function cake(input){
     let width = Number(input[1]);       /// width of the cake
     let cakeSize = lenght * width
     let index = 2;
-    let command = input[index];
+    let inputIndex = input[index];
     let numPieces = 0;
 
-    while(command !== 'STOP'){
-        let cakeParts = Number(command)
+    while(inputIndex !== 'STOP'){
+        let cakeParts = Number(inputIndex)
         numPieces += cakeParts;
 
         if(numPieces > sizeCake){
@@ -17,7 +17,7 @@ function cake(input){
         }
 
         index++
-        command = input[index];
+        inputIndex = input[index];
     }
 
     if (command === 'STOP'){

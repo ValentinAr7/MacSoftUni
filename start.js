@@ -15,7 +15,7 @@ function start(input){
         freeSpace -= numberOfBoxes;
 
         if(freeSpace < 0){
-            console.log(`No more free space! You need ${Math.abs(freeSpace)} Cubic meters more.f`);
+            console.log(`No more free space! You need ${Math.abs(freeSpace)} Cubic meters more.fi`);
             break;
         }
         index++

@@ -11,7 +11,7 @@ function cake(input){
         let cakeParts = Number(inputIndex)
         numPieces += cakeParts;
 
-        if(numPieces > sizeCake){
+        if(numPieces > cakeSize){
             console.log(`No more cake left! You need ${numPieces - cakeParts} pieces more.`)
             break;
         }
@@ -20,7 +20,7 @@ function cake(input){
         inputIndex = input[index];
     }
 
-    if (command === 'STOP'){
+    if (inputIndex === 'STOP'){
         if(numPieces <= sizeCake){
 
         }

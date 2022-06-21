@@ -1,8 +1,8 @@
 function start(input){
 
-    let w = Number(input[0]);
-    let l = Number(input[1]);
-    let h = Number(input[2]);
+    let w = Number(input[0]);       /// width of space  
+    let l = Number(input[1]);       /// lenght of space
+    let h = Number(input[2]);       /// highth of space
 
     let freeSpace = w * l * h
 

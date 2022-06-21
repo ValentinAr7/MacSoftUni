@@ -4,7 +4,7 @@ function start(input){
     let l = Number(input[1]);       /// lenght of space
     let h = Number(input[2]);       /// highth of space
 
-    let freeSpace = w * l * h
+    let freeSpace = w * l * h       /// free space in Cubic meters
 
     let index = 3;
     let command = input[index];

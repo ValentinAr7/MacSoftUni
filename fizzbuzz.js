@@ -11,6 +11,10 @@ function fizzbuzz(){
         console.log("fuzz");
     } else if (count % 3 == 0 && count % 5 == 0) {
         console.log(fizzfuzz);
+    }
+    else {
+    console.log(count);
+    }
 
 
 }

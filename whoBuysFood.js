@@ -1,8 +1,8 @@
-function food(input){
+function food(names){
 
-    let name = input[0]
-    name++
-    console.log(s);
+    let name = names.lenght
+    
+    console.log(name);
 
 
 }

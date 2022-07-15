@@ -25,7 +25,7 @@ function start(input){
     if(freeSpace >= 0){             
         console.log(`${freeSpace} Cubic meters left.`);
     }
-
+    
 
 
 }

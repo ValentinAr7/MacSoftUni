@@ -5,7 +5,7 @@ function food(names){
     let randomPerson = names[randomPeople];
 
 
-    
+    console.log(`${randomPerson} is the random person`);
 
 
 

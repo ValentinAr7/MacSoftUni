@@ -15,8 +15,9 @@ function food(names){
     let resukt1 = a + b * c
     let result2 = a * b
 
-    resukt1 +  result2
-    
+    let j = resukt1 +  result2
+    console.log(j);
+
 
 
 

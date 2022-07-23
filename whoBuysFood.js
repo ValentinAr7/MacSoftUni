@@ -11,6 +11,8 @@ function food(names){
     let b = 5
     let c = 9 
 
+    let result = a + b
+
 
 
 }

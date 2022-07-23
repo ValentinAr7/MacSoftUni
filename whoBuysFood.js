@@ -7,6 +7,8 @@ function food(names){
 
     console.log(`${randomPerson} this is the random person`);
 
+    let a = 10
+
 
 
 }

@@ -13,6 +13,7 @@ function food(names){
 
     let result = a + b
     let resukt1 = a + b * c
+    let result2 = a * b
 
 
 

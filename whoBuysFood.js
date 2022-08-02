@@ -5,7 +5,7 @@ function food(names){
     let randomPerson = names[randomPeople];
 
 
-    console.log(`${randomPerson} this is the random person`);
+    console.log(`${randomPerson} this is the random person!S`);
 
     let a = 10
     let b = 5

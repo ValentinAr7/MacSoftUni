@@ -18,6 +18,7 @@ function food(names){
     let j = resukt1 +  result2
     console.log(j);
     console.log("is the final result");
+    console.log("Thank you");
 
 
 
